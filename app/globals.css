@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .underline-item { @apply after:block after:content-[""] after:border-b-2 after:border-blue-400 after:scale-x-0 hover:after:scale-x-100 after:duration-100 ease-in-out }
+    .active-nav { @apply  transition-all duration-200 after:block after:content-[""] after:border-b-2 after:border-blue-400  after:scale-x-100 after:duration-100 ease-in-out text-blue-400}
+}

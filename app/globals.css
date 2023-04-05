@@ -5,4 +5,9 @@
 @layer components {
     .underline-item { @apply after:block after:content-[""] after:border-b-2 after:border-blue-400 after:scale-x-0 hover:after:scale-x-100 after:duration-100 ease-in-out }
     .active-nav { @apply  transition-all duration-200 after:block after:content-[""] after:border-b-2 after:border-blue-400  after:scale-x-100 after:duration-100 ease-in-out text-blue-400}
+    .light-text {@apply text-slate-500}
+}
+
+.my-box-shadow {
+    box-shadow: 0px 0px 42px -3px rgba(0,0,0,0.1),0px 1px 2px -1px rgba(0,0,0,0.1);;
 }

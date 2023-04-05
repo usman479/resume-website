@@ -4,9 +4,8 @@ export default function
 () {
   return (
     <div className='flex flex-col space-y-2'>
-        <h2 className='text-6xl'>Hi!</h2>
-        <h2 className='text-6xl'>I'm usman</h2>
-        <p className='text-lg font-thin text-gray-500'>web developer</p>
+        <h2 className='text-6xl font-bold leading-snug'>Hi! <br /> I'm Usman</h2>
+        <p className='uppercase text-lg font-thin text-gray-500'>web developer</p>
         <button className='self-start uppercase text-xs tracking-widest font-thin border border-black px-5 py-3 flex items-center space-x-1'>
             <span className='pt-1'> download cv </span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-4 h-4">

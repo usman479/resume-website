@@ -10,7 +10,7 @@ const SidebarNav = () => {
   const [isNavOpen,setIsNavOpen] = useState(false);
   console.log(isNavOpen);
 
-  const ids = ["home","about","services","skills"];
+  const ids = ["home","about","services","skills","experience","contact"];
   const activeId = useScrollspy(ids,100);
   
 
